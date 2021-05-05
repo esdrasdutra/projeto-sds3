@@ -1,10 +1,9 @@
-
+import React from 'react';
 
 function App() {
   return (
     <div className="App">
-      <h1>OLÁ, MUNDO!</h1>
-      
+      <h1 className="text-primary">Olá, Semana Spring React!</h1>     
     </div>
   );
 }
