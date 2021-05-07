@@ -1,8 +1,8 @@
-import DataTable from './components/DataTable';
-import BarChart from './components/BarChart';
-import DonutChart from './components/DonutsChart';
+import DataTable from 'components/DataTable';
+import BarChart from 'components/BarChart';
+import DonutChart from 'components/DonutsChart';
 
-function App() {
+function Dashboard() {
   return (
     <>
       <div className="container">
@@ -27,4 +27,4 @@ function App() {
     </>
   );
 }
-export default App;
+export default Dashboard;
