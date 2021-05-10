@@ -22,7 +22,7 @@ public class SellerController {
     ResponseEntity<List<SellerDTO>> findAll(){
         List<SellerDTO> list = service.findAll();
 
-        return ResponseEntity.ok(list);
+        return list != null ? ResponseEntity.ok().body(list) : ResponseEntity.notFound().build();
     }
     
 }
